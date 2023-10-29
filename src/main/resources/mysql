@@ -1,0 +1,18 @@
+create database Control2BD;
+
+use Control2BD;
+
+create table productos(
+
+idProductos int auto_increment primary key,
+nomProductos varchar(30),
+descripcion varchar(40),
+cantidad int ,
+fechaVencimiento date
+
+);
+
+insert  productos value(1,"prodcuto1","producto de pureba1",5,05/02/2000);
+insert  productos value(2,"prodcuto2","producto de pureba2",5,05/02/2002);
+insert  productos value(3,"prodcuto3","producto de pureba3",5,05/02/2003);
+insert  productos value(4,"prodcuto4","producto de pureba4",5,05/02/2004);
